@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SprayTrace — Recoil Trainer</title>
+<style>
+  :root { --bg:#0e0f12; --card:#16181d; --ink:#f2f3f5; --muted:#9aa0a8; --orange:#ff7333; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); min-height:100vh;
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         display:flex; align-items:center; justify-content:center; }
+  .wrap { max-width:560px; padding:56px 24px; text-align:center; }
+  .mark { width:84px; height:84px; border-radius:20px; background:var(--orange);
+          display:inline-flex; align-items:center; justify-content:center; margin-bottom:22px;
+          box-shadow:0 18px 50px rgba(255,115,51,.28); }
+  h1 { font-size:38px; margin:0 0 8px; letter-spacing:.5px; }
+  .tag { color:var(--muted); font-size:17px; margin:0 0 34px; }
+  .links { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+  a.btn { display:inline-block; padding:14px 26px; border-radius:14px; text-decoration:none;
+          font-weight:700; }
+  a.primary { background:var(--orange); color:#0e0f12; }
+  a.ghost { background:var(--card); color:var(--ink); border:1px solid #23262d; }
+  footer { margin-top:40px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="mark"><svg width="46" height="46" viewBox="0 0 22 22"><circle cx="11" cy="11" r="7.5" fill="none" stroke="#0e0f12" stroke-width="2.2"/><line x1="11" y1="1.5" x2="11" y2="5.5" stroke="#0e0f12" stroke-width="2.2"/><line x1="11" y1="16.5" x2="11" y2="20.5" stroke="#0e0f12" stroke-width="2.2"/><line x1="1.5" y1="11" x2="5.5" y2="11" stroke="#0e0f12" stroke-width="2.2"/><line x1="16.5" y1="11" x2="20.5" y2="11" stroke="#0e0f12" stroke-width="2.2"/><circle cx="11" cy="11" r="1.6" fill="#0e0f12"/></svg></span>
+    <h1>SprayTrace</h1>
+    <p class="tag">Learn every recoil pattern by heart — the recoil trainer for tactical shooters.</p>
+    <div class="links">
+      <a class="btn primary" href="./support/">Support</a>
+      <a class="btn ghost" href="./privacy/">Privacy Policy</a>
+    </div>
+    <footer>© 2026 Zhuoer Tang · Not affiliated with any game publisher.</footer>
+  </div>
+</body>
+</html>
